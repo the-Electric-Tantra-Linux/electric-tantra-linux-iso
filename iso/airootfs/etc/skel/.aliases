@@ -1,0 +1,20 @@
+#!/bin/env sh
+###########################################################################
+# Aliases
+#
+#
+# Thomas Leon Highbaugh
+# Github: https://github.com/Thomashighbaugh
+###########################################################################
+
+
+
+
+
+
+for file in $(
+  find "$HOME/.sh/alias" -name 'alias.sh'
+); do
+  source "$file"
+done
+

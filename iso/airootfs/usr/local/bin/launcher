@@ -1,0 +1,4 @@
+#!/bin/sh
+# This Launches the Application Selector Using Rofi
+## Having it here puts it into my system path, simplifying the process of calling it on a keybind across Window Managers
+rofi  -show drun -theme ~/dotfiles/rofi/themes/launcher

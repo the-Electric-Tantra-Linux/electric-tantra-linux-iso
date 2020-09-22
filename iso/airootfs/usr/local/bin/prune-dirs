@@ -1,0 +1,9 @@
+#!/bin/sh
+# Usage: prune-dirs <path>...
+# Remove empty directories under and including <path>s.
+# from https://github.com/shayne/dotfiles/blob/master/bin/prune-dirs
+
+
+for dir in "$@"
+do  find "$dir" -type d -empty -depth | xargs rmdir
+done

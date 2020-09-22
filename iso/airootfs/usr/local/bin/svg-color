@@ -1,0 +1,130 @@
+#!/bin/env bash
+
+for file in $*
+do
+sed -e "s/rgb(36.862746%,20.784314%,69.411767%)/rgb(0,133,174)/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout -5 " 
+echo 
+ echo $DATE 
+ done
+
+
+for file in $*
+do
+sed -e "s/rgb(49.411765%,34.117648%,76.078433%)/rgb(0,202,255)/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout -4 " 
+echo 
+ echo $DATE 
+ done
+
+
+for file in $*
+do
+sed -e "s/fill-opacity:0.27451;/fill-opacity:1;/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout -3"
+echo 
+ echo $DATE 
+ done
+
+for file in $*
+do
+sed -e "s/rgb(89.803922%,45.09804%,45.09804%);/rgb(245,70,185);/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout -2"
+echo 
+ echo $DATE 
+ done
+for file in $*
+do
+sed -e "s/rgb(93.725491%,32.549021%,31.37255%);/rgb(248,80,172);/g" $file > temp$file
+mv temp$file $file
+done
+
+for file in $*
+do
+sed -e "s/rgb(72.941178%,40.784314%,78.431374%);/rgb(240,238,110);/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout -1"
+echo 
+ echo $DATE 
+ done
+for file in $*
+do
+sed -e "s/#f546b9;/rgb(255,156,255);/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout 0"
+echo 
+ echo $DATE 
+ done
+for file in $*
+do
+sed -e "s/#ffa623;/rgb(240,238,110);/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout 1"
+echo 
+ echo $DATE 
+ done
+
+for file in $*
+do
+sed -e "s/#e33833;/rgb(248,80,172);/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout 2"
+echo 
+ echo $DATE 
+ done
+
+for file in $*
+do
+sed -e "s/url(#linear0);/#000000);/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout 3"
+echo 
+ echo $DATE 
+ done
+for file in $*
+do
+sed -e "s/rgb(58.431375%,45.882353%,80.392158%);/#00caff);/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout 4"
+echo 
+ echo $DATE 
+ done
+for file in $*
+do
+sed -e "s/rgb(100%,65.490198%,14.901961%);/#f9f871);/g" $file > temp$file
+mv temp$file $file
+done
+for file in $*
+do
+sed -e "s/#ffb54c;/#f9f871);/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout 5"
+echo $DATE
+done
+#ffb54c
+
+for file in $*
+do
+sed -e "s/#e37373;/#ff9cff);/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout 6"
+done
+
+for file in $*
+do
+sed -e "s/#b866c7;/#61aeee;/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout 7"
+done
+
+for file in $*
+do
+sed -e "s/rgb(61.176473%,80.000001%,39.607844%);/#00b6b2;/g" $file > temp$file
+mv temp$file $file
+echo "Change Callout 8"
+done
+

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Alternative Application Launcher
+## Intended for buttons on the system bars that the user presses instead of the fullscreen launcher available via keybind
+
+rofi  -show drun -theme ~/dotfiles/rofi/themes/sidebar.rasi
