@@ -15,12 +15,14 @@ DIR="$(pwd)"
 banner () {
     clear
     cat <<- _EOF_
-		${RED}┌─────────────────────────────────────────────────────────────────────────────┐
-		│  ${BLUE}       __            __        __       __               __                ${RED}│
-		│  ${BLUE}.-----|  .-----.----|  |_.----|__.----.|  |_.---.-.-----|  |_.----.---.-.  ${RED}│
-		│  ${BLUE}|  -__|  |  -__|  __|   _|   _|  |  __||   _|  _  |     |   _|   _|  _  |  ${RED}│
-		│  ${BLUE}|_____|__|_____|____|____|__| |__|____||____|___._|__|__|____|__| |___._|  ${RED}│
-		└─────────────────────────────────────────────────────────────────────────────┘
+
+    ${RED}┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+    │  ${CYAN}    dBBBP  dBP    dBBBP  dBBBP dBBBBBBP dBBBBBb    dBP dBBBP     dBBBBBBP dBBBBBb     dBBBBb dBBBBBBP dBBBBBb dBBBBBb  ${RED}│
+    │  ${CYAN}                                            dBP                                BB        dBP              dBP      BB  ${RED}│
+    │  ${CYAN}  dBBP   dBP    dBBP   dBP      dBP     dBBBBK   dBP dBP          dBP      dBP BB   dBP dBP   dBP     dBBBBK   dBP BB  ${RED}│
+    │  ${CYAN} dBP    dBP    dBP    dBP      dBP     dBP  BB  dBP dBP          dBP      dBP  BB  dBP dBP   dBP     dBP  BB  dBP  BB  ${RED}│
+    │  ${CYAN}dBBBBP dBBBBP dBBBBP dBBBBP   dBP     dBP  dB' dBP dBBBBP       dBP      dBBBBBBB dBP dBP   dBP     dBP  dB' dBBBBBBB  ${RED}│
+    └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 	_EOF_
 }
 
@@ -70,6 +72,5 @@ set_mod () {
 ## Main
 banner
 prerequisite
-set_extra
 set_mod
 exit 0

@@ -1,7 +1,7 @@
 @lxpanel --profile LXDE
 @pcmanfm --desktop --profile LXDE
 @xscreensaver -no-splash
-compton
+picom
 nm-applet
 mpd
 lxdunst
