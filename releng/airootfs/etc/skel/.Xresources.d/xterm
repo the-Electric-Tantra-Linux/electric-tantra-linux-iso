@@ -1,0 +1,5 @@
+! xterm
+xterm*loginShell: true
+xterm*saveLines: 2000
+xterm*eightBitInput: false
+

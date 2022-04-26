@@ -1,0 +1,75 @@
+#!/bin/env bash
+#####################################################################
+#####################    xprofile    ################################
+#####################################################################
+# sourced at boot by xinit and display managers like lightdm
+
+export XDG_CONFIG_HOME="$HOME/.config"
+
+## Path Modifications
+## Yes, I know this is unnecessary due to ~/.profile, but it is just to be sure since it can't hurt!
+[ -d /sbin ] && PATH="$PATH:/sbin"
+[ -d /usr/sbin ] && PATH="$PATH:/usr/sbin"
+[ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
+[ -d "$HOME/.local/share/bin" ] && PATH="$HOME/.local/share/bin:$PATH"
+
+# keyring and polkit daemons
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+## Gnome Keyring
+#if (command -v gnome-keyring-daemon && ! pgrep gnome-keyring-d); then
+#    gnome-keyring-daemon ---start --components=pkcs11 --login &
+#    /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+#fi
+
+## Pulse Audio for X11
+if (command -v start-pulseaudio-x11 && ! pgrep pulseaudio); then
+    start-pulseaudio-x11 &
+fi
+
+## Function Definition
+function run {
+    if (command -v $1 && ! pgrep $1); then
+
+        $@ &
+    fi
+}
+
+## Functions
+# Note: Most of these are now commented out, as I have an autostart script for awesome (and other window managers) which includes these but allow for a per-situation customization level not present in this generalized file. I have left them present for purposes of reference for the others.
+
+### Hitting Left Super == L Super + L Control + Escape (for rofi)
+run xcape -e 'Super_L=Super_L|Control_L|Escape'
+
+### Compositor
+# run picom -b --experimental-backends --dbus --config $HOME/.config/picom.conf
+
+### Bluetooth Manager
+# run blueman-applet
+
+### Notifications
+#run dunst
+
+### PulseAudio Tray Applet
+run pa-applet
+
+### Settings
+# run xfsettingsd
+
+### XFCE Settings for GTK theme consistency
+run xfce4-settings-daemon
+
+### Network Manager Applet
+# run nm-applet
+
+### Screen Saver
+# run xscreensaver
+
+# These two are generalized in terms of wanting them turned on even with Gnome or other DEs
+### Dropbox
+run dropbox
+
+## Merging Xresources
+xrdb -merge $HOME/.Xresources
+
+#run sudo env -u SUDO_GID -u SUDO_COMMAND -u SUDO_USER -u SUDO_UID .local/share/bin/sound/BeverlyHillsCop

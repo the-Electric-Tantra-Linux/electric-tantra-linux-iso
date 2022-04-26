@@ -1,0 +1,32 @@
+    ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+    │      dBBBP  dBP    dBBBP  dBBBP dBBBBBBP dBBBBBb    dBP dBBBP     dBBBBBBP dBBBBBb     dBBBBb dBBBBBBP dBBBBBb dBBBBBb  │
+    │                                              dBP                                BB        dBP              dBP      BB  │
+    │    dBBP   dBP    dBBP   dBP      dBP     dBBBBK   dBP dBP          dBP      dBP BB   dBP dBP   dBP     dBBBBK   dBP BB  │
+    │   dBP    dBP    dBP    dBP      dBP     dBP  BB  dBP dBP          dBP      dBP  BB  dBP dBP   dBP     dBP  BB  dBP  BB  │
+    │  dBBBBP dBBBBP dBBBBP dBBBBP   dBP     dBP  dB' dBP dBBBBP       dBP      dBBBBBBB dBP dBP   dBP     dBP  dB' dBBBBBBB  │
+    └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+    ┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+    │                                    "Rivers of power flowing everywhere.                                                 │
+    │                                  Fields of magnetism relating everything.                                               │
+    │                                          This is your origin.                                                           │
+    │                                         This is your lineage."                                                          │
+    │                                                                                                                         │
+    │                                     - Vijnana Bhairava Tantra                                                           │
+    │                                                                                                                         │
+    │                                                                                                                         │
+    │                                       Thomas Leon Highbaugh (c) 2020                                                    │
+    │                                                                                                                         │
+    │                                                                                                                         │
+    │                                       Email:   thighbaugh@zoho.com                                                      │
+    │                                       Github:  Thomashighbaugh                                                          │
+    │                                       Site:    https://thomasleonhighbaugh.me                                           │
+    └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+   
+For Wi-Fi, authenticate to the wireless network using the [35miwctl[0m utility.
+For mobile broadband (WWAN) modems, connect with the [35mmmcli[0m utility.
+Ethernet, WLAN and WWAN interfaces using DHCP should work automatically.
+
+After connecting to the internet, the installation script can be used
+ [35m/arch-install/[0m.

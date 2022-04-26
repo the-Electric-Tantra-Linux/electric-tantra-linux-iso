@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Install the Electric Tantra
+Comment= A Debian-like dialog based menu
+Exec=/usr/local/bin/apps_as_root.sh "kitty -e /usr/share/arch_install/setup"
+Icon=/usr/share/pixmaps/electric-tantra-logo.png
+Type=Application
+Categories=System;Settings;
