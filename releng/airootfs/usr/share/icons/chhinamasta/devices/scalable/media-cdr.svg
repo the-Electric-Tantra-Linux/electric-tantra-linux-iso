@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg56"
+   sodipodi:docname="media-cdr.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata60">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#f4f4f7fff"
+     bordercolor="#8b9cbe666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1831"
+     inkscape:window-height="915"
+     id="namedview58"
+     showgrid="false"
+     inkscape:zoom="3.1445312"
+     inkscape:cx="128"
+     inkscape:cy="128"
+     inkscape:window-x="89"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g54"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs42">
+    <filter
+       id="deepin-launcher-256px-a"
+       width="122.9%"
+       height="122.9%"
+       x="-11.4%"
+       y="-11.4%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="4"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset2" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="5"
+         id="feGaussianBlur4" />
+      <feComposite
+         in="shadowBlurOuter1"
+         in2="SourceAlpha"
+         operator="out"
+         result="shadowBlurOuter1"
+         id="feComposite6" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+         id="feColorMatrix8" />
+      <feMerge
+         id="feMerge14">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode10" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode12" />
+      </feMerge>
+    </filter>
+    <linearGradient
+       id="deepin-launcher-256px-b"
+       x1="36.374%"
+       x2="36.374%"
+       y1="10.403%"
+       y2="93.546%">
+      <stop
+         offset="0%"
+         stop-color="#FFF"
+         id="stop17" />
+      <stop
+         offset="99.43%"
+         stop-color="#C6D3D5"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       id="deepin-launcher-256px-c"
+       x1="100%"
+       x2="0%"
+       y1="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#ECD935"
+         id="stop22" />
+      <stop
+         offset="100%"
+         stop-color="#3BCAB9"
+         id="stop24" />
+    </linearGradient>
+    <linearGradient
+       id="deepin-launcher-256px-d"
+       x1="0%"
+       x2="100%"
+       y1="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#00B8E8"
+         id="stop27" />
+      <stop
+         offset="100%"
+         stop-color="#4B5EFF"
+         id="stop29" />
+    </linearGradient>
+    <linearGradient
+       id="deepin-launcher-256px-e"
+       x1="0%"
+       x2="100%"
+       y1="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#FFC823"
+         id="stop32" />
+      <stop
+         offset="100%"
+         stop-color="#FF2F78"
+         id="stop34" />
+    </linearGradient>
+    <linearGradient
+       id="deepin-launcher-256px-f"
+       x1="81.903%"
+       x2="0%"
+       y1="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#DE00C0"
+         id="stop37" />
+      <stop
+         offset="100%"
+         stop-color="#8720FF"
+         id="stop39" />
+    </linearGradient>
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     filter="url(#deepin-launcher-256px-a)"
+     transform="translate(10 10)"
+     id="g54">
+    <path
+       fill="url(#deepin-launcher-256px-b)"
+       d="M0,118 C0,52.8302857 52.8302857,0 118,0 C183.169714,0 236,52.8302857 236,118 C236,183.169714 183.169714,236 118,236 C52.8302857,236 0,183.169714 0,118 Z"
+       id="path44"
+       style="fill:#23252E" />
+    <path
+       fill="url(#deepin-launcher-256px-b)"
+       d="m 10.992411,117.46651 c 0,-59.782642 47.878395,-108.2458578 106.939609,-108.2458578 59.06122,0 106.93962,48.4632158 106.93962,108.2458578 0,59.78264 -47.8784,108.24585 -106.93962,108.24585 -59.061214,0 -106.939609,-48.46321 -106.939609,-108.24585 z"
+       id="path44-3"
+       style="fill:#323643;stroke-width:0.911786" />
+    <path
+       style="color:#1b1d24;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#f4f4f7;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.35198;marker:none;enable-background:accumulate"
+       d="m 116.83406,32.853565 c -45.607972,0 -82.580495,37.818433 -82.580495,84.469875 0,46.65144 36.972523,84.46988 82.580495,84.46988 45.60794,0 82.58048,-37.81844 82.58048,-84.46988 0,-46.651442 -36.97254,-84.469875 -82.58048,-84.469875 z m 27.74187,16.168064 c 17.70527,7.501557 31.37584,21.814875 38.7096,39.925217 l -28.06446,12.208524 c -4.04386,-9.986018 -12.04652,-18.304082 -22.5806,-22.76726 z m -27.74187,36.625612 c 17.10293,0 30.96766,14.181961 30.96766,31.676199 0,17.49436 -13.86473,31.67621 -30.96766,31.67621 -17.102943,0 -30.967689,-14.18185 -30.967689,-31.67621 0,-17.494238 13.864746,-31.676199 30.967689,-31.676199 z m 0,10.558738 c -11.40199,0 -20.645135,9.454591 -20.645135,21.117461 0,11.66288 9.243145,21.11749 20.645135,21.11749 11.40198,0 20.64511,-9.45461 20.64511,-21.11749 0,-11.66287 -9.24313,-21.117461 -20.64511,-21.117461 z m 0,10.558731 c 5.70093,0 10.32256,4.72737 10.32256,10.55873 0,5.83149 -4.62163,10.55873 -10.32256,10.55873 -5.70105,0 -10.32256,-4.72724 -10.32256,-10.55873 0,-5.83136 4.62151,-10.55873 10.32256,-10.55873 z M 78.447022,133.4915 c 4.043862,9.98612 12.046533,18.30409 22.580608,22.76728 L 89.092175,185.62526 C 71.386914,178.12372 57.716337,163.81039 50.382566,145.70006 Z"
+       id="path3123" />
+  </g>
+</svg>

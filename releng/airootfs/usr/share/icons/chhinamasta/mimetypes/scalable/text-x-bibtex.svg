@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="text-x-bibtex.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata50">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#f4f4f7fff"
+     bordercolor="#555e70666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1838"
+     inkscape:window-height="915"
+     id="namedview48"
+     showgrid="false"
+     inkscape:zoom="1.5722656"
+     inkscape:cx="256"
+     inkscape:cy="281.44099"
+     inkscape:window-x="28"
+     inkscape:window-y="57"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g40-9"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs30">
+    <linearGradient
+       id="application-epub+zip-c"
+       x1="186.93314"
+       x2="186.93314"
+       y1="0"
+       y2="373.86629"
+       gradientTransform="scale(0.89871703,1.1126973)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#5895FF"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#387CF4"
+         id="stop4" />
+    </linearGradient>
+    <path
+       id="application-epub+zip-b"
+       d="M232,0 L336,104 L336,380 C336,399.882251 319.882251,416 300,416 L36,416 C16.117749,416 2.4348735e-15,399.882251 0,380 L0,36 C-2.4348735e-15,16.117749 16.117749,3.65231026e-15 36,0 L232,0 Z" />
+    <filter
+       id="application-epub+zip-a"
+       width="127.4%"
+       height="122.1%"
+       x="-13.7%"
+       y="-9.1%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="8"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset8" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="14"
+         id="feGaussianBlur10" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.22745098   0 0 0 0 0.494117647   0 0 0 0 0.960784314  0 0 0 0.5 0"
+         id="feColorMatrix12" />
+    </filter>
+    <linearGradient
+       id="application-epub+zip-f"
+       x1="284"
+       x2="240.31376"
+       y1="52"
+       y2="92.448716"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#FFF"
+         stop-opacity=".1"
+         id="stop15" />
+      <stop
+         offset="100%"
+         stop-color="#FFF"
+         stop-opacity=".3"
+         id="stop17" />
+    </linearGradient>
+    <path
+       id="application-epub+zip-e"
+       d="M232,0 L336,104 L268,104 C248.117749,104 232,87.882251 232,68 L232,0 Z" />
+    <filter
+       id="application-epub+zip-d"
+       width="126.9%"
+       height="126.9%"
+       x="-13.5%"
+       y="-9.6%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="4"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset21" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="4"
+         id="feGaussianBlur23" />
+      <feComposite
+         in="shadowBlurOuter1"
+         in2="SourceAlpha"
+         operator="out"
+         result="shadowBlurOuter1"
+         id="feComposite25" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"
+         id="feColorMatrix27" />
+    </filter>
+    <filter
+       id="application-epub+zip-a-3"
+       width="1.274"
+       height="1.221"
+       x="-0.13699999"
+       y="-0.091000006"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="8"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset8-6" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="14"
+         id="feGaussianBlur10-7" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.22745098   0 0 0 0 0.494117647   0 0 0 0 0.960784314  0 0 0 0.5 0"
+         id="feColorMatrix12-5" />
+    </filter>
+    <filter
+       id="application-epub+zip-d-6"
+       width="1.2690001"
+       height="1.2690001"
+       x="-0.13500001"
+       y="-0.096000001"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="4"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset21-2" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="4"
+         id="feGaussianBlur23-9" />
+      <feComposite
+         in="shadowBlurOuter1"
+         in2="SourceAlpha"
+         operator="out"
+         result="shadowBlurOuter1"
+         id="feComposite25-1" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"
+         id="feColorMatrix27-2" />
+    </filter>
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g44">
+    <g
+       transform="translate(88 56)"
+       id="g40"
+       style="fill:#f4f4f7">
+      <use
+         fill="#000"
+         filter="url(#application-epub+zip-a)"
+         xlink:href="#application-epub+zip-b"
+         id="use32"
+         style="fill:#f4f4f7" />
+      <use
+         fill="url(#application-epub+zip-c)"
+         xlink:href="#application-epub+zip-b"
+         id="use34"
+         style="fill:#23252E" />
+      <use
+         fill="#000"
+         filter="url(#application-epub+zip-d)"
+         xlink:href="#application-epub+zip-e"
+         id="use36"
+         style="fill:#f4f4f7" />
+    </g>
+    <g
+       id="g40-9"
+       transform="matrix(0.88356997,0,0,0.90904804,109.63935,74.984156)"
+       inkscape:transform-center-x="-26.428817"
+       inkscape:transform-center-y="-58.197437">
+      <use
+         fill="#1b1d24"
+         filter="url(#application-epub+zip-a)"
+         xlink:href="#application-epub+zip-b"
+         id="use32-3"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%"
+         style="filter:url(#application-epub+zip-a-3)" />
+      <use
+         fill="url(#application-epub+zip-c)"
+         xlink:href="#application-epub+zip-b"
+         id="use34-6"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%"
+         style="fill:#555e70" />
+      <path
+         fill="#f4f4f7fff"
+         d="m 203.98308,263.26531 c -2.85392,19.95389 -3.08864,23.00453 -31.21118,23.00453 h -24.04568 c -6.91916,0 -7.24798,-0.84397 -7.24798,-6.59655 V 241.5607 h 16.34294 c 16.34294,0 14.59391,7.66726 14.59391,21.77862 h 6.09363 v -50.28566 h -6.09363 c 0,13.87505 1.74903,19.54659 -14.59391,19.54659 h -16.34294 v -41.43589 c 0,-5.64455 0.32882,-6.48853 7.24798,-6.48853 h 23.68887 c 26.80914,0 29.92941,10.28313 32.35708,32.38843 h 4.51249 V 176.22481 H 135.4695 l -4.90767,-32.43139 H 26.477044 l -2.238376,36.97978 h 5.351644 c 2.238756,-27.69603 2.987196,-27.26287 29.852304,-27.26287 h 9.563693 c 3.309172,0.49987 5.023381,2.53196 5.023381,6.38051 v 85.73373 c 0,6.04292 -0.524715,7.88616 -15.118619,7.88616 h -4.91828 v 9.82859 c 8.311391,-0.15597 16.9726,-0.31801 25.472885,-0.31801 8.472303,0 17.161483,0.16204 25.465884,0.31801 v -9.82859 h -4.83432 c -14.377096,0 -14.89474,-1.84324 -14.89474,-7.88616 v -85.73373 c 0,-3.69319 0,-5.69849 3.120267,-6.38051 h 9.507726 c 24.969607,0 28.721977,-0.40841 30.944567,22.71448 h -12.7627 v 8.45102 c 12.27119,0 14.2371,0 14.2371,7.51461 v 86.51058 c 0,7.51548 -1.93792,7.51548 -14.2371,7.51548 v 9.79076 h 93.2723 v -32.6686 c 4.72915,-0.0158 12.66097,-0.30826 16.86304,6.6e-4 v -9.77457 c -5.35903,-0.49896 -6.91216,-3.84856 -6.91216,-6.54254 0,-2.16059 0.84652,-3.34892 1.72104,-4.53725 l 27.71164,-39.03224 30.1393,42.75251 c 1.36424,1.85069 1.36424,2.34965 1.36424,2.84929 0,1.31661 -1.55313,4.1929 -7.61877,4.53724 v 9.74756 c 5.54792,-0.31734 15.08364,0 20.79247,0 4.48452,0 12.08232,-0.31734 16.28698,0 v -9.74756 c -11.09585,0 -12.84488,-0.81697 -16.28698,-5.53584 l -38.09389,-53.77903 25.63379,-35.76448 c 2.56758,-3.51109 7.78669,-6.2252 22.00281,-6.40736 v -8.54818 c -3.9668,0.31732 -10.55015,0.31732 -14.70585,0.31732 -5.70883,0 -12.81689,0 -17.1335,-0.31732 v 8.54818 c 5.54792,0.49947 5.00788,1.49877 5.00788,4.19269 0,1.99868 -3.77656,7.37701 -5.00788,9.03776 l -18.03601,25.82886 c 0,0 -23.09501,-34.36712 -23.09501,-34.86662 0,-1.5058 -3.7701,-4.19269 3.71576,-4.19269 v -8.54818 c -5.54794,0.31732 -14.02024,0.31732 -19.72908,0.31732 -4.48451,0 -13.14571,0 -17.32939,-0.31732 v 8.54818 c 9.51472,0 15.90918,1.21531 19.73606,6.40736 l 30.13931,41.9897 -30.13931,42.48992 c -7.43688,10.39109 -18.69364,10.57272 -22.0028,10.57272 v 9.77457 c 2.59631,-0.20807 6.27667,-0.14329 9.67473,-0.074 z"
+         id="path42"
+         style="stroke-width:1.02584;fill:#f4f4f7" />
+    </g>
+  </g>
+</svg>

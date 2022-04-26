@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="emblem-insync-syncing-shared.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata24">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#f4f4f7fff"
+     bordercolor="#8b9cbe666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1626"
+     inkscape:window-height="775"
+     id="namedview22"
+     showgrid="false"
+     inkscape:zoom="33.541667"
+     inkscape:cx="12"
+     inkscape:cy="10.807454"
+     inkscape:window-x="180"
+     inkscape:window-y="197"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g18"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs10">
+    <path
+       id="emblem-unreadable-b"
+       d="M18,9 C18,13.971 13.971,18 9,18 C4.029,18 0,13.971 0,9 C0,4.029 4.029,0 9,0 C13.971,0 18,4.029 18,9" />
+    <filter
+       id="emblem-unreadable-a"
+       width="138.9%"
+       height="138.9%"
+       x="-19.4%"
+       y="-13.9%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="1"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset3" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="1"
+         id="feGaussianBlur5" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"
+         id="feColorMatrix7" />
+    </filter>
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     transform="translate(3 3)"
+     id="g18">
+    <use
+       fill="#000"
+       filter="url(#emblem-unreadable-a)"
+       xlink:href="#emblem-unreadable-b"
+       id="use12" />
+    <use
+       fill="#FFF"
+       xlink:href="#emblem-unreadable-b"
+       id="use14"
+       style="fill:#23252E" />
+    <use
+       fill="#f4f4f7fff"
+       xlink:href="#emblem-unreadable-b"
+       id="use14-3"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#323643"
+       transform="matrix(0.87523085,0,0,0.87670506,1.136323,1.1255947)" />
+    <path
+       d="m 9.0132607,4.0189114 c -2.7589759,0 -5.0001715,2.2374163 -5.0001715,5.0001718 H 3.0153225 L 4.515752,11.517279 6.0161814,9.0190832 H 5.0146353 A 3.9948462,3.9948462 0 0 1 10.543926,5.3228112 0.49975595,0.49975595 0 0 0 10.929427,4.4006327 4.9963923,4.9963923 0 0 0 9.0170407,4.0226908 Z M 13.51455,6.5171077 12.01412,9.0190832 h 1.001546 A 4.0061845,4.0061845 0 0 1 7.4863757,12.715355 0.49975588,0.49975588 0 0 0 7.1008748,13.637534 l 0.052912,0.0189 A 5.0001717,5.0001717 0 0 0 14.013433,9.0190832 h 1.001546 z"
+       fill="#f4f4f7fff"
+       id="path4-3"
+       style="stroke-width:3.77942;fill:#f4f4f7" />
+  </g>
+</svg>

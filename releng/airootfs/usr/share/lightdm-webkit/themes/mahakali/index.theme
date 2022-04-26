@@ -1,0 +1,6 @@
+[theme]
+name=Mahakali
+description=Lightdm theme for the Electric Tantra Linux
+engine=lightdm-webkit2-greeter
+url=index.html
+session=awesome

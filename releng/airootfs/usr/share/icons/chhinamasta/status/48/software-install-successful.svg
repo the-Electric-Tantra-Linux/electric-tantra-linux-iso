@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 48 48"
+   version="1.1"
+   id="svg30"
+   sodipodi:docname="software-install-successful.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <metadata
+     id="metadata34">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#f4f4f7fff"
+     bordercolor="#8b9cbe666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1764"
+     inkscape:window-height="871"
+     id="namedview32"
+     showgrid="false"
+     inkscape:zoom="11.85877"
+     inkscape:cx="24"
+     inkscape:cy="21.78441"
+     inkscape:window-x="131"
+     inkscape:window-y="101"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g28"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs20">
+    <linearGradient
+       id="deepin-virtualkeyboard-c"
+       x1="23.392306"
+       x2="23.392306"
+       y1="5.1298918"
+       y2="43.391518"
+       gradientTransform="scale(1.0259784,0.97467943)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#FFF"
+         id="stop2" />
+      <stop
+         offset="100%"
+         stop-color="#EDEDED"
+         id="stop4" />
+    </linearGradient>
+    <rect
+       id="deepin-virtualkeyboard-b"
+       width="40"
+       height="38"
+       x="4"
+       y="5"
+       rx="7.573" />
+    <filter
+       id="deepin-virtualkeyboard-a"
+       width="117.5%"
+       height="118.4%"
+       x="-8.7%"
+       y="-6.6%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="1"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset8" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="1"
+         id="feGaussianBlur10" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"
+         id="feColorMatrix12" />
+    </filter>
+    <linearGradient
+       id="deepin-virtualkeyboard-d"
+       x1="50%"
+       x2="50%"
+       y1="0%"
+       y2="100%">
+      <stop
+         offset="0%"
+         stop-color="#4A4A4A"
+         id="stop15" />
+      <stop
+         offset="97.645%"
+         stop-color="#363636"
+         id="stop17" />
+    </linearGradient>
+  </defs>
+  <g
+     fill="none"
+     fill-rule="evenodd"
+     id="g28">
+    <use
+       fill="#000"
+       filter="url(#deepin-virtualkeyboard-a)"
+       xlink:href="#deepin-virtualkeyboard-b"
+       id="use22" />
+    <use
+       fill="url(#deepin-virtualkeyboard-c)"
+       xlink:href="#deepin-virtualkeyboard-b"
+       id="use24"
+       style="fill:#23252E" />
+    <use
+       fill="url(#deepin-virtualkeyboard-c)"
+       xlink:href="#deepin-virtualkeyboard-b"
+       id="use24-7"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       style="fill:#323643"
+       transform="matrix(0.92197755,0,0,0.92233776,1.8194904,1.8861476)" />
+    <path
+       style="color:#1b1d24;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#f4f4f7;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.62389;marker:none;enable-background:accumulate"
+       d="m 23.869575,8.3861011 c -9.222848,0 -16.6994343,7.0699939 -16.6994343,15.7912819 0,8.721287 7.4765863,15.791281 16.6994343,15.791281 9.222841,0 16.699431,-7.069994 16.699431,-15.791281 0,-8.721288 -7.47659,-15.7912819 -16.699431,-15.7912819 z m 5.609963,3.0225499 c 3.580362,1.402385 6.344826,4.078198 7.827858,7.463848 L 31.6322,21.154832 c -0.81775,-1.866844 -2.43605,-3.42187 -4.56625,-4.256243 z m -5.609963,6.847002 c 3.458556,0 6.262283,2.651257 6.262283,5.92173 0,3.270496 -2.803727,5.921732 -6.262283,5.921732 -3.458559,0 -6.262287,-2.651236 -6.262287,-5.921732 0,-3.270473 2.803728,-5.92173 6.262287,-5.92173 z m 0,1.973911 c -2.305712,0 -4.174859,1.767495 -4.174859,3.947819 0,2.180325 1.869147,3.947825 4.174859,3.947825 2.305709,0 4.174856,-1.7675 4.174856,-3.947825 0,-2.180324 -1.869147,-3.947819 -4.174856,-3.947819 z m 0,1.973909 c 1.152843,0 2.087429,0.883761 2.087429,1.97391 0,1.090172 -0.934586,1.973909 -2.087429,1.973909 -1.152866,0 -2.087429,-0.883737 -2.087429,-1.973909 0,-1.090149 0.934563,-1.97391 2.087429,-1.97391 z m -7.76263,4.996459 c 0.81775,1.866862 2.436051,3.421871 4.566252,4.256247 l -2.413588,5.489937 c -3.580359,-1.402381 -6.344824,-4.078197 -7.82786,-7.463845 z"
+       id="path3123" />
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="64" height="64" version="1.1" id="svg12"
+   sodipodi:docname="folder-desktop.svg" inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   <metadata id="metadata18">
+      <rdf:RDF>
+         <cc:Work rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+            <dc:title />
+         </cc:Work>
+      </rdf:RDF>
+   </metadata>
+   <defs id="defs16" />
+   <sodipodi:namedview pagecolor="#f4f4f7fff" bordercolor="#555e70666" borderopacity="1" objecttolerance="10"
+      gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2"
+      inkscape:window-width="1468" inkscape:window-height="828" id="namedview14" showgrid="false"
+      inkscape:zoom="8.8940775" inkscape:cx="26.210596" inkscape:cy="41.766377" inkscape:window-x="221"
+      inkscape:window-y="144" inkscape:window-maximized="0" inkscape:current-layer="svg12"
+      inkscape:document-rotation="0" />
+   <rect style="opacity:0.2;fill:#f4f4f7;stroke-width:1.10008" width="54.214497" height="50.223732" x="4.9580455"
+      y="8.4946899" rx="2.7107248" ry="2.7902071" id="rect2-3" />
+   <rect style="opacity:0.2" width="50" height="45" x="7" y="11" rx="2.5" ry="2.5" id="rect2" />
+   <path style="fill:#23252E;stroke-width:1.10008"
+      d="m 4.958045,12.847413 v 41.964716 c 0,1.545775 1.2089833,2.790208 2.7107248,2.790208 H 56.461817 c 1.501742,0 2.710725,-1.244433 2.710725,-2.790208 V 12.847413 Z"
+      id="path4-6" />
+   <path style="fill:#23252E;stroke-width:1.10008"
+      d="m 7.6687698,7.3786069 c -1.5017415,0 -2.7107248,1.2444325 -2.7107248,2.7902061 v 2.790209 h 54.214497 v -2.790209 c 0,-1.5457736 -1.208983,-2.7902061 -2.710725,-2.7902061 z"
+      id="path6-7" />
+   <path style="fill:#555e70"
+      d="M 7,14.9 7,52.5 C 7,53.885 8.115,55 9.5,55 l 45,0 c 1.385,0 2.5,-1.115 2.5,-2.5 l 0,-37.6 z" id="path4" />
+   <g transform="matrix(0.11273626,0,0,0.10942501,9.7975025,17.338024)" id="g36" style="fill:#f4f4f7">
+      <rect width="400" height="64" y="256" fill="#a4ffcc" opacity="0.7" rx="18" id="rect26" x="0"
+         style="opacity:1;fill:#f4f4f7" />
+      <rect width="64" height="64" x="24" y="4" fill="#1b1d24" opacity="0.1" rx="10" id="rect28" style="fill:#f4f4f7" />
+      <rect width="64" height="64" x="24" y="116" fill="#1b1d24" opacity="0.1" rx="10" id="rect30"
+         style="fill:#f4f4f7" />
+      <rect width="64" height="64" x="24" fill="#f4f4f7fff" rx="10" id="rect32" y="0" style="fill:#f4f4f7" />
+      <rect width="64" height="64" x="24" y="112" fill="#f4f4f7fff" rx="10" id="rect34" style="fill:#f4f4f7" />
+   </g>
+   <rect style="fill:#555e70;fill-rule:evenodd;stroke-width:1.3373" id="rect845" width="49.979118" height="5.2592273"
+      x="7.020884" y="9.77458" rx="0" ry="0" />
+</svg>
