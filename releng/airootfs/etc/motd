@@ -24,9 +24,9 @@
     │                                       Site:    https://thomasleonhighbaugh.me                                           │
     └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
    
-For Wi-Fi, authenticate to the wireless network using the [35miwctl[0m utility.
-For mobile broadband (WWAN) modems, connect with the [35mmmcli[0m utility.
+For Wi-Fi, authenticate to the wireless network using the iwctl utility.
+For mobile broadband (WWAN) modems, connect with the nmcli utility.
 Ethernet, WLAN and WWAN interfaces using DHCP should work automatically.
 
 After connecting to the internet, the installation script can be used
- [35m/arch-install/[0m.
+arch-install

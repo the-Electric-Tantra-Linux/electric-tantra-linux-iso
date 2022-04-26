@@ -6,13 +6,6 @@
 
 export XDG_CONFIG_HOME="$HOME/.config"
 
-## Path Modifications
-## Yes, I know this is unnecessary due to ~/.profile, but it is just to be sure since it can't hurt!
-[ -d /sbin ] && PATH="$PATH:/sbin"
-[ -d /usr/sbin ] && PATH="$PATH:/usr/sbin"
-[ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
-[ -d "$HOME/.local/share/bin" ] && PATH="$HOME/.local/share/bin:$PATH"
-
 # keyring and polkit daemons
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
@@ -54,10 +47,10 @@ run xcape -e 'Super_L=Super_L|Control_L|Escape'
 run pa-applet
 
 ### Settings
-# run xfsettingsd
+ run xfsettingsd
 
 ### XFCE Settings for GTK theme consistency
-run xfce4-settings-daemon
+#run xfce4-settings-daemon
 
 ### Network Manager Applet
 # run nm-applet
@@ -72,4 +65,4 @@ run dropbox
 ## Merging Xresources
 xrdb -merge $HOME/.Xresources
 
-#run sudo env -u SUDO_GID -u SUDO_COMMAND -u SUDO_USER -u SUDO_UID .local/share/bin/sound/BeverlyHillsCop
+run sudo env -u SUDO_GID -u SUDO_COMMAND -u SUDO_USER -u SUDO_UID .local/share/bin/sound/BeverlyHillsCop

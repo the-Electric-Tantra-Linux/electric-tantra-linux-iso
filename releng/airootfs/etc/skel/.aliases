@@ -1,0 +1,16 @@
+#!/bin/env bash
+###########################################################################
+# Aliases
+#
+#
+# Thomas Leon Highbaugh
+# Github: https://github.com/Thomashighbaugh
+###########################################################################
+
+## Dotfiles Location ###########################################################
+
+for file in $(
+	find "$HOME"/.alias -name '*.alias.sh'
+); do
+	source "$file"
+done

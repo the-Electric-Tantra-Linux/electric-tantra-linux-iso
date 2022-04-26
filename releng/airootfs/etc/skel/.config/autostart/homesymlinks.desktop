@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=sh -c "~/.config/autostart/homesymlinks.sh"
+Name=Fix installer symlinks
+StartupNotify=false
+Terminal=false
+Type=Application
