@@ -1,6 +1,6 @@
-# DEPRECATED
+# Its Back 
 
-I had to go and make it harder on myself, namely switching to Void Linux as the basis of this project(s). This is left up in case others find it useful, or I need it in the future, 
+To the whole of 0 people who actually care whatsoever, the Electric Tantra Linux is again based on Arch Linux, because neither Void or Artix can evidently write sufficient documentation or comment their codebases, so I came back to a tool I have already deduced the functionality of, and has better doucmentation that at least explains the functionality of the thing
 
 ## Introduction
 This repository houses all the files necessary to generate an Arch Linux iso file from the profile contained within the iso directory, or `releng`. This profile contains all the necessary files and configurations to build a `liveusb` of the Electric Tantra Linux. It can also serve as a basis for those interested in creating their own Archlinux spin off distribution and can follow along with its general workflow.
