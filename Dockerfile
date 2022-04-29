@@ -31,6 +31,11 @@ RUN set -xe; \
 COPY ./pacman.conf /etc/pacman.conf
 COPY ./packages.txt /packages.txt
 COPY ./pacstrap.sh /bin/pacstrap
+# Update the package lists
+RUN pacman -Syy
+# Clean Cache 
+RUN pacman -Scc --noconfirm
+# Install packages for cache
 RUN pacman --noconfirm -Syyw $(</packages.txt)
 
 # If building on a debian host, dev/shm points to /run/shm

@@ -42,43 +42,21 @@ clear
 ##############################################################################
 ##############################################################################
 ##############################################################################
-function deleteTMPFS() {
-    sudo pacman -Scc
-    if [ -d "/tmp/mkarchiso" ]; then
-        print s "Deleting TMPFS directory from the last build"
-        sudo rm -rvf /tmp/mkarchiso*
-        print s "Deletion Completion"
-    fi
-
-}
-##############################################################################
-##############################################################################
-##############################################################################
-function mkarchiso {
-    print s "##############################################"
-    print s "Running the ISO Build Command"
-    print s "##############################################"
-    sh -c "sudo mkarchiso -v -w /tmp/mkarchiso-el releng"
-    print w "ISO Built"
-
-}
-
 print t "##############################################"
-print t "mkarchiso Build Script"
+print t "the Electric Tantra Linux Build Script"
 print t "##############################################"
 echo
 print s "##############################################"
-print s "Phase 1:Checking for build artifacts now..."
+print s "Phase 1:Build the Docker Environment" 
 print s "##############################################"
 echo
-deleteTMPFS
+sudo docker build -t tantrik 
 
 print s "##############################################"
-print s "Phase 2: Build"
+print s "Phase 2: Build the ISO Within the Docker Image"
 print s "##############################################"
 echo
-mkarchiso
-
+sudo docker run -i -t --privileged -v `pwd`/iso:/iso --rm tantrik 
 print t "##############################################"
 print t "Good Luck, Hope It Runs!"
 print t "##############################################"
