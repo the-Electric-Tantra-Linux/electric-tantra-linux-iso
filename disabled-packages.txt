@@ -10,4 +10,3 @@ lxc
 arch-install-scripts 
 rkt
 sysdig
-brinkOS-gdm-plymouth

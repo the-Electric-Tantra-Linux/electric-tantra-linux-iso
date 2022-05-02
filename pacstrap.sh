@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Modified by James Brink <brink.james@gmail.com>
 # Modified to increase build times by using cached packages
 
 #

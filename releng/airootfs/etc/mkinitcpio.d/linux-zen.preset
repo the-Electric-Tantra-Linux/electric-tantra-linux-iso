@@ -1,14 +1,11 @@
-# mkinitcpio preset file for the 'linux-zen' package
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
 
-ALL_config="/etc/mkinitcpio.conf"
-ALL_kver="/boot/vmlinuz-linux-zen"
+# mkinitcpio preset file for the 'linux' package on archiso
 
-PRESETS=('default' 'fallback')
+PRESETS=('archiso' )
 
-#default_config="/etc/mkinitcpio.conf"
-default_image="/boot/initramfs-linux-zen.img"
-#default_options=""
+ALL_kver='/boot/vmlinuz-linux'
+ALL_config='/etc/mkinitcpio.conf'
 
-#fallback_config="/etc/mkinitcpio.conf"
-fallback_image="/boot/initramfs-linux-zen-fallback.img"
-fallback_options="-S autodetect"
+archiso_image="/boot/initramfs-linux-zen.img"

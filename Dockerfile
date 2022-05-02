@@ -40,10 +40,11 @@ RUN pacman --noconfirm -Syyw $(</packages.txt)
 
 # If building on a debian host, dev/shm points to /run/shm
 # and will fail without this directory.
-RUN mkdir -p /build/archiso/work/x86_64/airootfs/run/shm; \
-    mkdir -p /build/archiso/work/x86_64/airootfs/var/run/shm; \
+RUN mkdir -p /build/relengs/work/x86_64/airootfs/run/shm; \
+    mkdir -p /build/releng/work/x86_64/airootfs/var/run/shm; \
     mkdir -p /run/shm; \
     mkdir -p /var/run/shm;
+
 
 # Copy in our entrypoint and archlive and set ownership.
 COPY ./releng /build/releng

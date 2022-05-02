@@ -1,7 +1,8 @@
 .vscode
 .DS_Store
 **/work
-iso
+*.iso
+*.qcow2
 pkg
 src/*.tar.gz
 *.pkg.tar.xz

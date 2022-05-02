@@ -1,0 +1,1 @@
+{"LuaJIT": {"name": "LuaJIT", "source": "release", "version": "2.1.0-beta3", "target": "linux", "compat": "default", "c flags": "", "location": "/home/tlh/Samsung/Work/electric-tantra-linux-iso/releng/airootfs/etc/skel/.config/awesome/lua51", "major version": "5.1"}, "version": 3, "luarocks": {"name": "LuaRocks", "source": "release", "version": "3.8.0"}}

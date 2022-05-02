@@ -1,0 +1,50 @@
+rock_manifest = {
+   doc = {
+      COPYING = "2363dfec11e2b66afa3cbb9ac7acbaa9",
+      ["README.md"] = "283e99e07295205e8be79f05e5df9b92"
+   },
+   lua = {
+      vstruct = {
+         ["api.lua"] = "7460012ae55fd88e9434488ee8c1812e",
+         ast = {
+            ["Bitpack.lua"] = "82d72961c41b687528bc8c5864af8c3d",
+            ["IO.lua"] = "3efbe08d50c2de47543aa9e7bcbe2b88",
+            ["List.lua"] = "397ca1e802c9bdbf194a6f970d468bcd",
+            ["Name.lua"] = "bb92e4df2431810ba66c9cdfa830901b",
+            ["Node.lua"] = "dd2381ff9451095610d92f74a29fca70",
+            ["Repeat.lua"] = "c87c31ca7154a91f15335425aedc8479",
+            ["Root.lua"] = "6c8347665b0cf8a1c78145b966f32cbc",
+            ["Table.lua"] = "3a9fd3e3032bb016322274782b37898f"
+         },
+         ["ast.lua"] = "64429562808c6e1cef4dfb392ff8e092",
+         ["compat1x.lua"] = "dff2909cfe70b48506c03d3edc222b73",
+         ["cursor.lua"] = "6689a65bb08714d7704885d87d8fe3ca",
+         ["frexp.lua"] = "8ebcfef564cfd5366acfa8237cded038",
+         ["init.lua"] = "8a36e6d134eb4c9c0bd5cd9a9d89b6a7",
+         io = {
+            ["a.lua"] = "8be88418fb57ef2007845d6056bbf5db",
+            ["b.lua"] = "9940133d89883ea10b0340e95653a6af",
+            ["bigendian.lua"] = "ba66e7dcf2e594bcf12ff44681ed090e",
+            ["c.lua"] = "0bd43af16e686614fbf126014906600a",
+            ["defaults.lua"] = "11b118965606ac488c844ae64fcc149c",
+            ["endianness.lua"] = "88aeb393be0dbd7531eb7c4c24f93b06",
+            ["f.lua"] = "68d1c06bd57f531df03af2181a0d78c7",
+            ["hostendian.lua"] = "5abd67fad573a68312bc5d8850fbe244",
+            ["i.lua"] = "32af9a1dce9790c42740a0f6c7b4d671",
+            ["littleendian.lua"] = "2bd570e983d82ef71266a24fc3cfadb1",
+            ["m.lua"] = "936e89723d4d4cc1ac3da760fb51fba5",
+            ["p.lua"] = "a3da281571a53832d3c3c43dd81db5f6",
+            ["s.lua"] = "2d14b4c183d5c96c7d594fdded125146",
+            ["seekb.lua"] = "fdf9289904f0c6eb70f2b6abd77178fc",
+            ["seekf.lua"] = "9bb242fc9d8d747f0f1babe2a4f485c0",
+            ["seekto.lua"] = "d0862b83e9e3d47526482cde2e840e07",
+            ["u.lua"] = "38fa616b083204ccd9870446b8dd7640",
+            ["x.lua"] = "c90de0cbcf486e318ae3ca9adb69e984",
+            ["z.lua"] = "a91b54fdc918be1ac0300e69fa20b4de"
+         },
+         ["io.lua"] = "a24a8a39735e14245eea0c984e5f17e5",
+         ["lexer.lua"] = "81c1108a41dee459d320fa556dc0fddf"
+      }
+   },
+   ["vstruct-2.1.1-1.rockspec"] = "362ff2df3c52a701213fdf8e06fcf487"
+}

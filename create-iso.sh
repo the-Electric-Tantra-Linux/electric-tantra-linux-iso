@@ -50,7 +50,7 @@ print s "##############################################"
 print s "Phase 1:Build the Docker Environment" 
 print s "##############################################"
 echo
-sudo docker build -t tantrik 
+sudo docker build -t tantrik . 
 
 print s "##############################################"
 print s "Phase 2: Build the ISO Within the Docker Image"
