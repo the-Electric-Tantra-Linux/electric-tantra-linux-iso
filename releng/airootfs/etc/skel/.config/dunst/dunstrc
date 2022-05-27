@@ -1,0 +1,94 @@
+# .--|  |.--.--.-----.-----.|  |_.----.----.
+# |  _  ||  |  |     |__ --||   _|   _|  __|
+# |_____||_____|__|__|_____||____|__| |____|
+#
+#
+# Thomas Leon Highbaugh 
+# dunstrc [vice scheme by Thomas Leon Highbaugh]
+
+
+[global]
+    monitor = 0
+    follow = keyboard
+    geometry = "0x150-15-15" # this should be in sync with dwm gaps
+    indicate_hidden = yes
+    notification_height = 0
+    separator_height = 2
+    padding = 4
+    horizontal_padding = 8
+    frame_width = 3
+    # Define a color for the separator.
+    # possible values are:
+    #  * auto: dunst tries to find a color fitting to the background;
+    #  * foreground: use the same color as the foreground;
+    #  * frame: use the same color as the frame;
+    #  * anything else will be interpreted as a X color.
+    separator_color = auto
+    # Sort messages by urgency.
+    sort = yes
+    idle_threshold = 20
+
+    font = Encode Sans SemiExpanded Black 14
+
+    line_height = 0
+    markup = full
+    # The format of the message.  Possible variables are:
+    #   %a  appname
+    #   %s  summary
+    #   %b  body
+    #   %i  iconname (including its path)
+    #   %I  iconname (without its path)
+    #   %p  progress value if set ([  0%] to [100%]) or nothing
+    #   %n  progress value if set without any extra characters
+    #   %%  Literal %
+    # Markup is allowed
+    format = "<b>%a</b>\n<b>%s</b>\n%b"
+
+    alignment = left
+    show_age_threshold = 60
+    word_wrap = yes
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = true
+    show_indicators = yes
+    icon_position = left
+    icon_path = /usr/share/icons/chhinamasta
+    max_icon_size = 64
+    sticky_history = no
+    history_length = 20
+    dmenu = /usr/local/bin/dmenu -p dunst:
+    browser = /usr/bin/librewolf
+    # Always run rule-defined scripts, even if the notification is suppressed
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    startup_notification = false
+    verbosity = crit
+    corner_radius = 4
+    force_xinerama = false
+[experimental]
+    per_monitor_dpi = true
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+    history = ctrl+Escape
+    context = ctrl+shift+period
+
+frame_color = "#b2bfd9"
+separator_color = "#b2bfd9"
+
+[base16_low]
+    msg_urgency = low
+    background = "#17191e"
+    foreground = "#b2bfd9"
+
+[base16_normal]
+    msg_urgency = normal
+    background = "#22262d"
+    foreground = "#b2bfd9"
+
+[base16_critical]
+    msg_urgency = critical
+    background = "#3c3f4c"
+    foreground = "#ff3d81"

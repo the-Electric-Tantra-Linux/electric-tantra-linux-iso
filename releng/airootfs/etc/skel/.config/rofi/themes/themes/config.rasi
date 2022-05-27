@@ -1,0 +1,94 @@
+
+configuration {
+	font: "Commodore64 Rounded Bold 13";
+	show-icons: true;
+	drun-display-format: "{name}";
+	threads: 0;
+	matching: "fuzzy";
+	scroll-method: 0;
+	disable-history: false;
+	window-thumbnail: true;
+}
+
+window {
+	transparency: "real";
+
+	
+}
+
+prompt {
+	enabled: true;
+}
+
+button {
+	action: "ok";
+	
+	font: "Commodore64 Rounded Bold 13";
+	expand: false;
+	
+}
+
+entry {
+	font: "Commodore64 Rounded Bold 13";
+	expand: true;
+	vertical-align: 0.5;
+	horizontal-align: 0.5;
+	placeholder: "Type to search";
+	blink: true;
+}
+
+case-indicator {
+	
+}
+
+entry-wrapper {
+	orientation: horizontal;
+	spacing: 4px;
+
+	children: [ button, entry, case-indicator ];
+}
+
+inputbar {
+
+
+	expand: false;
+	border-radius: 6px;
+	margin: 0px 25% 0px 20%;
+	padding: 10px 10px 10px 10px;
+	children: [ entry-wrapper ];
+}
+
+listview {
+
+	columns: 1;
+	spacing: 1px;
+	cycle: false;
+	dynamic: true;
+	layout: vertical;
+}
+
+mainbox {
+
+	children: [ inputbar, listview ];
+	spacing: 5px;
+	padding: 1% ;
+	/*padding: 70px 135px 0 135px;*/
+}
+
+element {
+	orientation: vertical;
+	border-radius: 12px;
+
+}
+
+
+element-text {
+	expand: true;
+    margin: 0px 5% 0px 5%;
+    padding: 1%;
+}
+
+element normal.urgent,
+element alternate.urgent {
+	border-radius: 9px;
+}

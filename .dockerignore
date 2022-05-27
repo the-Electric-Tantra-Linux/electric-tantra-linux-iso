@@ -1,3 +1,4 @@
 .git
-brinkOS/archlive/work
+**/work
 iso
+out

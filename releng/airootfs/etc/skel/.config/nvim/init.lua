@@ -1,38 +1,63 @@
-require("autocommands")
-require("options")
-require("mappings")
-require("utils")
-require("highlights")
-require("pluginList")
-require("plugins.bufferline")
-require("packerInit")
-require("plugins.dashboard")
-local modules = {
-    "pluginList",
-    "plugins.bufferline",
-    "mappings",
-    "options",
-    "utils"
-}
+-- Name: Arnold Chand
+-- Github: https://github.com/creativenull
+-- My vimrc, tested on Linux and Windows
+-- + python3
+-- + ripgrep
+-- + bat
+-- + curl
+-- + deno
+-- =============================================================================
 
-local async
-async =
-    vim.loop.new_async(
-    vim.schedule_wrap(
-        function()
-            for i = 1, #modules, 1 do
-                local ok, res = xpcall(require, debug.traceback, modules[i])
-                if not (ok) then
-                    print("Error loading module : " .. modules[i])
-                    print(res) -- print stack traceback of the error
-                end
-            end
-            async:close()
+-- Initialize
+local core = require("forge.core")
+core.setup(
+  {
+    config = {
+      -- Leader key
+      leader = " ",
+      -- Colorscheme config
+      theme = {
+        name = "xresources",
+        enable_transparent_features = false,
+        enable_custom_visual_hl = true,
+        on_before = function()
+          -- nightfly
+          vim.g.nightflyNormalFloat = true
+          vim.g.nightflyTransparent = true
+
+          -- starry
+          vim.g.starry_disable_background = true
         end
-    )
-)
-async:send()
+      },
+      -- Adjust packer config
+      plugins = {
+        init = {
+          compile_path = vim.fn.stdpath("data") .. "/site/plugin/packer_compiled.lua"
+        }
+      }
+    },
+    -- Events
+    on_before = function()
+      local autocmd = require("forge.core.event").autocmd
 
-for i = 1, #modules, 1 do
-    pcall(require, modules[i])
-end
+      -- Highlight text yank
+      autocmd(
+        {
+          event = "TextYankPost",
+          exec = function()
+            vim.highlight.on_yank({higroup = "Search", timeout = 500})
+          end
+        }
+      )
+    end,
+    on_after = function()
+      require("forge.user.keymaps")
+      require("forge.user.options")
+      require("forge.user.abbreviations")
+
+      -- Custom user commands
+      require("forge.user.conceal")
+      require("forge.user.codeshot")
+    end
+  }
+)

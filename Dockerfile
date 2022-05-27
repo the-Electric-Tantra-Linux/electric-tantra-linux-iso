@@ -52,9 +52,8 @@ COPY ./docker-entrypoint.sh /build/docker-entrypoint.sh
 
 # Setup Environment variables.
 ENV GTK_THEME="Dhumavati-White-Dark" \
-    ICON_THEME="chhinamasta" \
-    PACKAGE_PROXY="" \
-    NETINSTALL="true"
+    ICON_THEME="chhinamasta" 
+
 
 # Set our entrypoint which kicks off our build.
 ENTRYPOINT [ "/build/docker-entrypoint.sh" ]

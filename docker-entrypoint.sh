@@ -76,7 +76,7 @@ function mkarchiso {
     echo
 }
 print t "##############################################"
-print t "mkarchiso Build Script"
+print t "mkarchiso Build Script Within Docker"
 print t "##############################################"
 echo
 echo
@@ -98,7 +98,7 @@ echo
 echo
 mkarchiso
 
-print t "##############################################"
-print t "Good Luck, Hope It Runs!"
-print t "##############################################"
+print w "##############################################"
+print w "End Docker Entrypoint Script, Good Luck!"
+print w "##############################################"
 exit

@@ -5,6 +5,8 @@
 set -e -u
 
 sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+sed -i 's/#greeter-session=example-gtk-greeter/greeter-session=lightdm-webkit2-greeter/g' /etc/lightdm/lightdm.conf
+sed -i 's/antergos/mahakali/g' /etc/lightdm/lightdm-webkit2-greeter.conf
 locale-gen
 
 sed -i "s/#Server/Server/g" /etc/pacman.d/mirrorlist

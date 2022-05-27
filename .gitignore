@@ -8,3 +8,4 @@ src/*.tar.gz
 *.pkg.tar.xz
 *.tar.gz
 package-repo
+.idea

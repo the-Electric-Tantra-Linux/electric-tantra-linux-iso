@@ -1,0 +1,7 @@
+[Default Applications]
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+
+[Added Associations]
+inode/directory=code-insiders.desktop;
+image/png=gimp.desktop;
+application/x-theme=code-oss.desktop;

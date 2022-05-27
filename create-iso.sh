@@ -4,15 +4,12 @@
 # Requires archiso to be installed on the system (obviously requires being run on Arch)
 #
 
-
-
 cr="$(tput setaf 1)"
 cg="$(tput setaf 2)"
 cy="$(tput setaf 3)"
 cm="$(tput setaf 5)"
 sb="$(tput bold)"
 sn="$(tput sgr0)"
-
 
 print() {
     case "$1" in
@@ -47,16 +44,16 @@ print t "the Electric Tantra Linux Build Script"
 print t "##############################################"
 echo
 print s "##############################################"
-print s "Phase 1:Build the Docker Environment" 
+print s "Phase 1:Build the Docker Environment"
 print s "##############################################"
 echo
-sudo docker build -t tantrik . 
+sudo docker build -t tantrik .
 
 print s "##############################################"
 print s "Phase 2: Build the ISO Within the Docker Image"
 print s "##############################################"
 echo
-sudo docker run -i -t --privileged -v `pwd`/iso:/iso --rm tantrik 
-print t "##############################################"
-print t "Good Luck, Hope It Runs!"
-print t "##############################################"
+sudo docker run -i -t --privileged -v $(pwd)/iso:/iso --rm tantrik
+print e "##############################################"
+print e "Good Luck, Hope It Runs!"
+print e "##############################################"
