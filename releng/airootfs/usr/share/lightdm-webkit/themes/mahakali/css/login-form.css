@@ -1,4 +1,4 @@
-/* The login dialog is styled here, it is essentially an HTML form and behaves as one would expect under normal styling paradigms for components such as it. */
+/* The login dialog is styled here, it is essentially an HTML form and behaves as one would expect under normal styling paradigms for components, none of that rofi style shanigans. */
 
 #login-form {
   width: auto;

@@ -18,12 +18,12 @@ cat >"/etc/os-release" <<-EOL
 	ID=arch
 	BUILD_ID=rolling
 	ANSI_COLOR="38;2;23;147;209"
-	HOME_URL="https://github.com/Thomashighbaugh/dotfiles"
+	HOME_URL="https://github.com/the-Electric-Tantra-Linux"
 	LOGO=electric-tantra-logo
 EOL
 
 cat >"/etc/issue" <<-EOL
-	ElectricTantra \r (\l)
+	ElectricTantra \n \r (\l) \n 
 EOL
 
 systemctl enable NetworkManager.service
