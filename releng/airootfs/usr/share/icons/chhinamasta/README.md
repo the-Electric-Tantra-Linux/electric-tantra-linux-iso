@@ -1,2 +1,0 @@
-# chhinamasta-icon-theme
-> 
