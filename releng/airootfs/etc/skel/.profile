@@ -11,8 +11,8 @@
 ## Dotfiles Location ###########################################################
 
 for file in $(
-    find "$HOME"/.xorg-configs -name '*.config.sh'
-); do
+    find "$HOME"/.xorg-configs/ -name '*.config.sh'
+    ); do
     source "$file"
 done
 

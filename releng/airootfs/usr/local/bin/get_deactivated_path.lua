@@ -1,1 +1,0 @@
-/home/tlh/Samsung/Work/electric-tantra-linux-iso/releng/airootfs/usr/local/lib/lua51/bin/get_deactivated_path.lua
