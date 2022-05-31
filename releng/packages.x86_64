@@ -715,7 +715,6 @@ networkmanager-vpnc
 numlockx
 ranger
 wmctrl
-weechat
 xorg-twm
 xorg-xgamma
 xorg-xhost
@@ -734,7 +733,6 @@ vulkan-radeon
 vulkan-tools
 bash-completion
 binutils
-byobu
 cpio
 cpupower
 dmidecode
