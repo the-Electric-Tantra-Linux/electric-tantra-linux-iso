@@ -1,3 +1,6 @@
 [submodule "releng/airootfs/etc/skel/.zsh"]
 	path = releng/airootfs/etc/skel/.zsh
 	url = https://github.com/Thomashighbaugh/zsh
+[submodule "releng/airootfs/etc/skel/.config/awesome"]
+	path = releng/airootfs/etc/skel/.config/awesome
+	url = https://github.com/the-Electric-Tantra-Linux/awesome
