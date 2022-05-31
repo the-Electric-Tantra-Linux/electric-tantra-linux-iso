@@ -4,3 +4,6 @@
 [submodule "releng/airootfs/etc/skel/.config/awesome"]
 	path = releng/airootfs/etc/skel/.config/awesome
 	url = https://github.com/the-Electric-Tantra-Linux/awesome
+[submodule "releng/airootfs/usr/share/icons/chhinamasta"]
+	path = releng/airootfs/usr/share/icons/chhinamasta
+	url = https://github.com/the-Electric-Tantra-Linux/chhinamasta-icon-theme
